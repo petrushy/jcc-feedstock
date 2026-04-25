@@ -12,9 +12,10 @@ source:
   sha256: {{ sha256 }}
   patches:
    - jcc_python.patch
+   - jccenv_auto_attach.patch
 
 build:
-  number: 7
+  number: 8
 
   rpaths: # only valid for linux
     - lib
