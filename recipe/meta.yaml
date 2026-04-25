@@ -11,7 +11,6 @@ source:
   url: https://files.pythonhosted.org/packages/f4/34/a3e592555828246575b83a20c0f37589b90fd49efc4415509c9c128bf31a/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
   patches:
-   - jcc_python.patch
    - jccenv_auto_attach.patch
 
 build:
